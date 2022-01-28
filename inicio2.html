@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu</title>
+    <link rel="stylesheet" href="/css/menu_dinamico2.css"/>
+    <link rel="stylesheet" href="/css/inicio.css"/>
+    <script src="https://kit.fontawesome.com/2cb25f2c39.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="https://www.uanl.mx" target="_blank">
+                    <img src="img/uanl.png" alt="" class="logo">
+                </a>
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar_btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav_menu">
+                <li><a class="active" href="inicio.html">Inicio</a></li>
+                <!--INFORMACION-->
+                <li>
+                    <a href="informacion.html">Información</a>
+                    <ul class="menu_vertical">
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">Django</a></li>
+                    </ul>
+                </li>
+                <!--SERVICIOS-->
+                <li>
+                    <a href="#">Servicios</a>
+                    <ul class="menu_vertical">
+                        <li><a href="#">Mensual</a></li>
+                        <li><a href="#">Anual</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <section class="padre">
+            <div class="banner_text">
+                <h2>ASPIRA A UNA MEJOR</h2>
+                <h1>EDUCACIÓN EN <span>FIME</span></h1>
+                <div>
+                    <a href="#" class="button1">Explorar</a>
+                    <a href="#" class="button2">Comenzar</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    
+</body>
+</html>
